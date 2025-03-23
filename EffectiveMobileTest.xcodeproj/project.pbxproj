@@ -17,6 +17,7 @@
 		8075EBE62D901D8E003B0008 /* EffectiveMobileTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075EBE52D901D8E003B0008 /* EffectiveMobileTestTests.swift */; };
 		8075EBF02D901D8E003B0008 /* EffectiveMobileTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075EBEF2D901D8E003B0008 /* EffectiveMobileTestUITests.swift */; };
 		8075EBF22D901D8E003B0008 /* EffectiveMobileTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075EBF12D901D8E003B0008 /* EffectiveMobileTestUITestsLaunchTests.swift */; };
+		8075EC002D901EF7003B0008 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8075EBFF2D901EF7003B0008 /* Entity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8075EBEB2D901D8E003B0008 /* EffectiveMobileTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EffectiveMobileTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8075EBEF2D901D8E003B0008 /* EffectiveMobileTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveMobileTestUITests.swift; sourceTree = "<group>"; };
 		8075EBF12D901D8E003B0008 /* EffectiveMobileTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectiveMobileTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8075EBFF2D901EF7003B0008 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		8075EBCA2D901D8B003B0008 /* EffectiveMobileTest */ = {
 			isa = PBXGroup;
 			children = (
+				8075EBFE2D901EDF003B0008 /* Entity */,
 				8075EBCB2D901D8B003B0008 /* AppDelegate.swift */,
 				8075EBCD2D901D8B003B0008 /* SceneDelegate.swift */,
 				8075EBCF2D901D8B003B0008 /* ViewController.swift */,
@@ -128,6 +131,14 @@
 				8075EBF12D901D8E003B0008 /* EffectiveMobileTestUITestsLaunchTests.swift */,
 			);
 			path = EffectiveMobileTestUITests;
+			sourceTree = "<group>";
+		};
+		8075EBFE2D901EDF003B0008 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8075EBFF2D901EF7003B0008 /* Entity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8075EBD02D901D8B003B0008 /* ViewController.swift in Sources */,
+				8075EC002D901EF7003B0008 /* Entity.swift in Sources */,
 				8075EBCC2D901D8B003B0008 /* AppDelegate.swift in Sources */,
 				8075EBD62D901D8B003B0008 /* EffectiveMobileTest.xcdatamodeld in Sources */,
 				8075EBCE2D901D8B003B0008 /* SceneDelegate.swift in Sources */,
